@@ -9,64 +9,81 @@
 </head>
 <body>
   <!--header section-->
-  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" >
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown link
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      <div class="carousel-item active">
-        <img src="res/Dior's on-trend glasses concept.jpeg" class="d-block w-100" alt="..." height="1000vh" width="100%">
-      </div>
-      <div class="carousel-item">
-        <img src="res/Silver look with glasses.jpeg" class="d-block w-100" alt="..." height="1000vh" width="100%">
-      </div>
-      <div class="carousel-item">
-        <img src="res/download (4).jpeg" class="d-block w-100" alt="..." height="1000vh" width="100%">
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand text-primary" href="#">STAN<span>SPACE</span> </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
     </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active text-primary" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-primary" href="features.html">Features</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-primary" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Countries
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="#">Nigeria<img src="res/Flag_of_Nigeria.svg.png" height="7px" style="padding-left: 10px;"></a></li>
+            <li><a class="dropdown-item" href="#">China<img src="res/Flag_of_the_People's_Republic_of_China.svg.png" height="7px" style="padding-left: 12px;"></a></li>
+            <li><a class="dropdown-item" href="#">UK<img src="res/Flag_of_the_United_Kingdom_(1-2).svg.png" height="7px" style="padding-left: 10px;"></a></li>
+            <li><a class="dropdown-item" href="#">USA<img src="res/Flag-United-States-of-America.webp" height="7px" style="padding-left: 10px;"></a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
   </div>
-    <!--Product section-->
+</nav>
+<!--end of the section-->
+<!--carousel section-->
+<div id="carouselExampleInterval" id="carouselExampleFade" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="2000">
+      <img src="res/Dior's on-trend glasses concept.jpeg" class="d-block w-100" alt="..." height="700px">
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="res/download (4).jpeg" class="d-block w-100" alt="..." height="700px">
+    </div>500px
+    <div class="carousel-item " data-bs-interval="2000">
+      <img src="res/Silver look with glasses.jpeg" class="d-block w-100" alt="..." height="700px">
+    </div>
+  </div>
+  <button class="carousel-control-prev" style="padding-top: 300px;" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next fixed-middle" style="padding-top: 300px;" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<div class="card-group">
+  <div class="card">
+    <img src="res/Digital Art.jpeg" class="card-img-top" alt="..." height="500px">
+    <div class="card-body bg-dark">
+      <h5 class="card-title text-muted text-center">Visio<span>nary</span></h5>
+      <p class="card-text text-muted ">A visionary clothing brand that is pushing the boundaries of fashion and design. This brand is not just about creating clothes, but about creating a lifestyle and a movement.</p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="res/Lexica - Ultra hd! editorial, rick owens, female model, white and chrome, structured outfit, platform shoes, iso 400, surrealistic, 8k, full frame, l___.jpeg" class="card-img-top" alt="..." height="500px">
+    <div class="card-body bg-dark">
+      <h5 class="card-title text-muted text-center">Futur<span>istic</span></h5>
+      <p class="card-text text-muted">Cutting-edge fashion technology - the futuristic clothing brand, Zephyr. Our garments are not just clothes, they are a statement of innovation and style.</p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="res/download (8).jpeg" class="card-img-top" alt="..." height="500px">
+    <div class="card-body bg-dark">
+      <h5 class="card-title text-muted te">Sup<span>reme</span>  </h5>
+      <p class="card-text text-muted">Known for its bold designs, limited edition drops, and cult following, Supreme is the epitome of cool. With collaborations with artists, musicians, and designers, Supreme is constantly pushing the boundaries of fashion.</p>
+    </div>
+  </div>
+</div>
     <!--Footer section-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
